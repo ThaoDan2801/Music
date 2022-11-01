@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="170dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fce4ec"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imv_image_album"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/colorBottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_headphone" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_title_favovite"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="3dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Trung Quan Ido"
+            android:textColor="@color/colorTextFavovite" />
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="-10dp"
+            android:id="@+id/tv_duration"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="04:56"
+            android:textColor="@color/colorTextFavovite" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

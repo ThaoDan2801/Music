@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imv_menu_drawer"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/boder_profile"
+            android:src="@drawable/ab" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_sreach"
+
+            >
+
+            <ImageView
+                android:id="@+id/imv_search"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_search"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="Tìm kiếm bài hát... "
+                android:textAllCaps="false"
+                android:textColor="@color/text_top_menu"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+                    <ImageView
+                        android:id="@+id/imv_setting"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_mic" />
+
+
+        </LinearLayout>
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imv_search"-->
+        <!--            android:layout_width="45dp"-->
+        <!--            android:layout_height="45dp"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:textColor="@android:color/white"-->
+
+        <!--            android:background="@drawable/statte_tab_layout"-->
+        <!--            android:padding="8dp"-->
+        <!--            android:src="@drawable/ic_search" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imv_setting"-->
+        <!--            android:layout_width="45dp"-->
+        <!--            android:layout_height="45dp"-->
+        <!--            android:background="@drawable/statte_tab_layout"-->
+        <!--            android:padding="8dp"-->
+        <!--            android:src="@drawable/ic_setting" />-->
+    </LinearLayout>
+</LinearLayout>
